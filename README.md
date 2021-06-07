@@ -2,7 +2,8 @@
 Disciplina ministrada ao Programa de Pós-Graduação em Geociências da Faculdade de Geologia da Universidade do Estado do Rio de Janeiro (FGEL/UERJ).
 
 **Professor**: [André Luis A. Reis](https://www.pinga-lab.org/people/andre.html)
-**E-mails:** reisandreluis@gmail.com/andre.reis@uerj.br
+
+**E-mails:** reisandreluis@gmail.com / andre.reis@uerj.br
 
 **Aviso:** O material disponibilizado neste repositório está em constante desenvolvimento e, portanto, a universidade e o programa de pós-graduação não possuem qualquer responsabilidade sobre o seu conteúdo.
 
@@ -46,7 +47,13 @@ satellite perspective*. Cambridge University Press.
 ## Material
 
 Todo o material da disciplina (dados, slides e códigos computacionais) estão disponíveis em um repositório no Github:
+
 https://github.com/andrelreis/metodos-potenciais
+
+As versões ao final de cada ano são marcadas com um *tag* e podem ser vistas em:
+
+https://github.com/andrelreis/metodos-potenciais/releases
+
 
 ## License
 
