@@ -13,25 +13,28 @@ Método  Gravimétrico:  Potencial  Gravitacional,  equações  dos  campos  pot
 
 Versão oficial do conteúdo da disciplina: [Métodos Potenciais](https://www.fgel.uerj.br/site/wp-content/uploads/2019/05/M%c3%a9todos-potenciais_GEL04903.pdf)
 
-## Tópicos e cronograma
-
-**Aviso:** Este não é um cronograma definitivo e poderá sofrer alterações ao longo do curso.
+## Tópicos do curso
 
 * Elementos de teoria do potencial
 * Campo de gravidade da Terra
 * Gravimetria
 * Campo magnético da Terra
 * Magnetometria
-* Modelagem direta de campos potenciais
 * Processamento e interpretação de dados potenciais
+* Modelagem direta e inversão de campos potenciais
 * Transformações de campos potenciais
-* Conceitos básicos de inversão de dados potenciais
 
 ## Avaliação
 
 Avaliação desta disciplina será feita através da apresentação de um seminário. O tema poderá ser proposto pelo aluno. Caso o aluno não escolha um tema até **data a ser definida**, o Professor poderá escolher um conjunto de temas que deverão ser sorteados para os alunos. O seminário será composto por duas etapas: **uma monografia** e **uma apresentação** relacionados ao tema escolhido. A **média final** será composta pelas notas
 obtidas nestas duas etapas. A monografia deve ter **no máximo três páginas** (sem contar as páginas de índice, listas de figuras e
 tabelas e referências bibliográficas). As apresentações deverão ter **entre 40 e 50 minutos de duração, mais 15 minutos de arguição**. Os alunos que não apresentarem serão automaticamente **reprovados**.
+
+## Cronograma
+
+**Aviso:** Este cronograma não é definitivo e pode sofrer mudanças ao longo do curso.
+
+Em breve!
 
 ## Referências bibliográficas
 
