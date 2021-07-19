@@ -55,9 +55,9 @@ listas de figuras,tabelas ou referências bibliográficas). As apresentações
 deverão ter entre 30 e 50 minutos de duração, mais 10 minutos de arguição.
 Os alunos que não apresentarem serão automaticamente **reprovados**.
 
-**Prazo máximo para entrega do tema** - (27/10)
-**Entrega da monografia** - (10/11)
-**Ciclo de palestras dos alunos** - (10/11 a 24/11)
+- **Prazo máximo para entrega do tema** - (27/10)
+- **Entrega da monografia** - (10/11)
+- **Ciclo de palestras dos alunos** - (10/11 a 24/11)
 
 ## Referências bibliográficas
 
