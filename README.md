@@ -5,7 +5,7 @@ Disciplina ministrada ao Programa de Pós-Graduação em Geociências da Faculda
 
 **E-mails:** reisandreluis@gmail.com / andre.reis@uerj.br
 
-**Aviso:** O material disponibilizado neste repositório está em constante desenvolvimento e, portanto, a universidade e o programa de pós-graduação não possuem qualquer responsabilidade sobre o seu conteúdo.
+**Aviso:** O material disponibilizado neste repositório está em constante desenvolvimento e, portanto, a universidade e o programa de pós-graduação não possuem qualquer responsabilidade sobre o seu conteúdo. As aulas não serão gravadas.
 
 ## Ementa
 
@@ -24,17 +24,40 @@ Versão oficial do conteúdo da disciplina: [Métodos Potenciais](https://www.fg
 * Modelagem direta e inversão de campos potenciais
 * Transformações de campos potenciais
 
-## Avaliação
-
-Avaliação desta disciplina será feita através da apresentação de um seminário. O tema poderá ser proposto pelo aluno. Caso o aluno não escolha um tema até **data a ser definida**, o Professor poderá escolher um conjunto de temas que deverão ser sorteados para os alunos. O seminário será composto por duas etapas: **uma monografia** e **uma apresentação** relacionados ao tema escolhido. A **média final** será composta pelas notas
-obtidas nestas duas etapas. A monografia deve ter **no máximo três páginas** (sem contar as páginas de índice, listas de figuras e
-tabelas e referências bibliográficas). As apresentações deverão ter **entre 40 e 50 minutos de duração, mais 15 minutos de arguição**. Os alunos que não apresentarem serão automaticamente **reprovados**.
-
 ## Cronograma
 
-**Aviso:** Este cronograma não é definitivo e pode sofrer mudanças ao longo do curso.
+**Aviso:** Este cronograma não é definitivo e poderá sofrer mudanças ao longo do curso.
 
-Em breve!
+Semana | Tema                                 | Código |
+|:------:|:-------------------------------------|:-------:|
+| 0    | Apresentação do curso   |    |
+| 1    | Introdução a Teoria do Potencial  |  |
+| 2    | Identidades de Green   |  |
+| 3    | Campo gravitacional, Terra Normal e distúrbio de gravidade  |  |
+| 4    | Topografia, isostasia e anomalia bouguer  |  |
+| 5    | Modelagem gravimétrica  |  |
+| 6    | Campo geomagnético e a anomalia de campo total  |  |
+| 7    | Modelagem magnética  |  |
+| 8    | Introdução a inversão de dados potenciais  |  |
+| 9    | Transformações de campo no domínio da frequência   |  |
+| 10   | Transformações de campo no domínio do espaço e Camada equivalente|  |
+
+## Avaliação
+
+A avaliação desta disciplina será feita através da apresentação de um seminário.
+O tema poderá ser proposto pelo aluno. **Caso o aluno não escolha um, o professor
+poderá escolher um conjunto de temas que deverão ser sorteados para os alunos**.
+O seminário será composto por duas etapas: uma monografia e uma apresentação
+relacionados ao tema escolhido. **A média final será composta pelas notas obtidas
+nestas duas etapas, e também pela presença dos alunos no ciclo de seminários**.
+A monografia deve ter no máximo três páginas (sem contar as páginas de índice,
+listas de figuras,tabelas ou referências bibliográficas). As apresentações
+deverão ter entre 30 e 50 minutos de duração, mais 10 minutos de arguição.
+Os alunos que não apresentarem serão automaticamente **reprovados**.
+
+- **Prazo máximo para entrega do tema** - (27/10)
+- **Entrega da monografia** - (10/11)
+- **Ciclo de palestras dos alunos** - (10/11 a 24/11)
 
 ## Referências bibliográficas
 
@@ -49,7 +72,7 @@ satellite perspective*. Cambridge University Press.
 
 ## Material
 
-Todo o material da disciplina (dados, slides e códigos computacionais) estão disponíveis em um repositório no Github:
+Todo o material da disciplina (dados e códigos computacionais) estão disponíveis em um repositório no Github:
 
 https://github.com/andrelreis/metodos-potenciais
 
