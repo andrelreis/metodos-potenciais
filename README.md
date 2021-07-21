@@ -5,7 +5,7 @@ Disciplina ministrada ao Programa de Pós-Graduação em Geociências da Faculda
 
 **E-mails:** reisandreluis@gmail.com / andre.reis@uerj.br
 
-**Aviso:** O material disponibilizado neste repositório está em constante desenvolvimento e, portanto, a universidade e o programa de pós-graduação não possuem qualquer responsabilidade sobre o seu conteúdo.
+**Aviso:** O material disponibilizado neste repositório está em constante desenvolvimento e, portanto, a universidade e o programa de pós-graduação não possuem qualquer responsabilidade sobre o seu conteúdo. As aulas não serão gravadas.
 
 ## Ementa
 
