@@ -31,16 +31,15 @@ Versão oficial do conteúdo da disciplina: [Métodos Potenciais](https://www.fg
 Semana | Tema                                 | Código |
 |:------:|:-------------------------------------|:-------:|
 | 0    | Apresentação do curso   |    |
-| 1    | Introdução a Teoria do Potencial  |  |
-| 2    | Identidades de Green   |  |
-| 3    | Campo gravitacional, Terra Normal e distúrbio de gravidade  |  |
-| 4    | Topografia, isostasia e anomalia bouguer  |  |
-| 5    | Modelagem gravimétrica  |  |
-| 6    | Campo geomagnético e a anomalia de campo total  |  |
-| 7    | Modelagem magnética  |  |
-| 8    | Introdução a inversão de dados potenciais  |  |
-| 9    | Transformações de campo no domínio da frequência   |  |
-| 10   | Transformações de campo no domínio do espaço e Camada equivalente|  |
+| 1    | Teoria do Potencial e Identidades de Green  |  |
+| 2    | Campo gravitacional, Terra Normal e distúrbio de gravidade  | [notebook](https://github.com/andrelreis/metodos-potenciais/blob/2021/2/Content/code/1.%20Gravity_earth/2.%20gravity_field_and_disturbance.ipynb) |
+| 3    | Topografia, isostasia e anomalia bouguer  |  |
+| 4    | Campo geomagnético e a anomalia de campo total  |  |
+| 5    | Modelagem gravimétrica e magnética |  |
+| 6    | Introdução a inversão de dados potenciais  |  |
+| 7    | Transformações de campo no domínio da frequência   |  |
+| 8    | Transformações de campo no domínio do espaço e Camada equivalente|  |
+| 9    | Deconvolução de Euler |  |
 
 ## Avaliação
 
