@@ -174,7 +174,7 @@ def jit_magnetic(coordinates,prisms,intensities,directions,kernel,out):
                         Y = prisms[m, -1 + j] - coordinates[0, l]
                         X = prisms[m, 1 + i] - coordinates[1, l]
                         Z = prisms[m, 3 + k] - coordinates[2, l]
-                        out[l] += (intensities[m] * (-1) ** (i + j + k)*kernel(Y, X, Z,directions[:,m]))
+                        out[l] += (intensities[m] * (-1) ** (i + j + k)*kernel(Y, X, Z,directions[m]))
 
 @njit
 def kernel_xx(Y, X, Z):
