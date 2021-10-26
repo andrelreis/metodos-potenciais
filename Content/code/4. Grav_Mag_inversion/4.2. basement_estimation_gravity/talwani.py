@@ -166,6 +166,7 @@ def GN_solver_smoothness(xp,zp,obs,ref,p0,density,itmax,stop,mu):
      
     ## Iteration process
     for i in range(itmax):
+        print (i)
         H = GtG + mu*RtR
         J = -np.dot(G.T,r0) + mu*np.dot(RtR,p0)
     
