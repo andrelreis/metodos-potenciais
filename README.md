@@ -5,7 +5,7 @@ Disciplina ministrada ao Programa de Pós-Graduação em Geociências da Faculda
 
 **E-mails:** reisandreluis@gmail.com / andre.reis@uerj.br
 
-**Aviso:** O material disponibilizado neste repositório está em constante desenvolvimento e, portanto, a universidade e o programa de pós-graduação não possuem qualquer responsabilidade sobre o seu conteúdo. As aulas não serão gravadas.
+>**Aviso:** O material disponibilizado neste repositório está em constante desenvolvimento e, portanto, a universidade e a coordenação de graduação não possuem qualquer responsabilidade sobre o seu conteúdo. As aulas não serão gravadas.
 
 ## Ementa
 
@@ -24,49 +24,56 @@ Versão oficial do conteúdo da disciplina: [Métodos Potenciais](https://www.fg
 * Modelagem direta e inversão de campos potenciais
 * Transformações de campos potenciais
 
-## Cronograma
+## Conteúdo didático computacional
 
-**Aviso:** Este cronograma não é definitivo e poderá sofrer mudanças ao longo do curso.
+>**Aviso:** Os códigos aqui apresentados são parte de uma disciplina e sua usabilidade é, consideravelmente, limitada a nível de pesquisa e desenvolvimento. A universidade não tem qualquer responsabilidade sobre a aplicação, tanto a nível acadêmico quanto profissional, dos códigos aqui apresentados.
 
-Semana | Tema                                 | Código |
-|:------:|:-------------------------------------|:-------:|
-| 0    | Apresentação do curso   |    |
-| 1    | Teoria do Potencial e Identidades de Green  |  |
-| 2    | Campo gravitacional, Terra Normal e distúrbio de gravidade  | [notebook](https://github.com/andrelreis/metodos-potenciais/blob/2021/2/Content/code/1.%20Gravity_earth/2.%20gravity_field_and_disturbance.ipynb) |
-| 3    | Topografia, isostasia e anomalia bouguer  |  |
-| 4    | Campo geomagnético e a anomalia de campo total  |  |
-| 5    | Modelagem gravimétrica e magnética |  |
-| 6    | Introdução a inversão de dados potenciais  |  |
-| 7    | Transformações de campo no domínio da frequência   |  |
-| 8    | Transformações de campo no domínio do espaço e Camada equivalente|  |
-| 9    | Deconvolução de Euler |  |
+- O campo de gravidade
+    - [X] Campo de Gravidade real, Terra Normal e Distúrbio de gravidade `gravity_field_and_disturbance.ipynb`
+    - [X] Anomalia bouguer pro mundo inteiro `bouguer_anomaly.ipynb`
+    - [X] Campo de gravidade na Costa brasileira `brazilian_coast_bouguer_anomaly.ipynb`
+    - [X] Campo de gravidade nos Andes `andes_bouguer_anomaly.ipynb`
+    - [X] Campo de gravidade no Havaí `hawaii_bouguer_anomaly.ipynb`
+    - [X] Campo de gravidade na dorsal mesoceânica `mid_ocean_bouguer_anomaly.ipynb`
 
-## Avaliação
+- Campo geomagnético e Anomalia de campo total
+    - [X] International Geomagnetic Reference Field `IGRF.ipynb`
+    - [X] Anomalia de campo total: Anitápolis, SC `TFA_anitapolis.ipynb`
+    - [X] Anomalia de campo total: Carajás, PA `TFA_carajas.ipynb`
+    - [X] Anomalia de campo total: Montes Claros de Goiás, GO `TFA_montes_claros.ipynb`
 
-A avaliação desta disciplina será feita através da apresentação de um seminário.
-O tema poderá ser proposto pelo aluno. **Caso o aluno não escolha um, o professor
-poderá escolher um conjunto de temas que deverão ser sorteados para os alunos**.
-O seminário será composto por duas etapas: uma monografia e uma apresentação
-relacionados ao tema escolhido. **A média final será composta pelas notas obtidas
-nestas duas etapas, e também pela presença dos alunos no ciclo de seminários**.
-A monografia deve ter no máximo três páginas (sem contar as páginas de índice,
-listas de figuras,tabelas ou referências bibliográficas). As apresentações
-deverão ter entre 30 e 50 minutos de duração, mais 10 minutos de arguição.
-Os alunos que não apresentarem serão automaticamente **reprovados**.
+- Modelagem gravimetria e magnética
+    - [X] Prisma poligonal 2D `2D_polygonal_modeling.ipynb`
+    - [X] Bacia bidimensional `basin_2D_modeling.ipynb`
+    - [X] Efeito de uma esfera `sphere_modeling.ipynb`
+    - [X] Gradiente da gravidade de uma esfera `gravity_gradient_sphere.ipynb` 
+    - [X] Efeito de um prisma `prism_modeling.ipynb`
+    - [X] Gradiente da gravidade de um prisma `gravity_gradient_prism.ipynb`
+    - [X] Modelagem 3D de uma bacia `3D_basin_modeling.ipynb`
 
-- **Prazo máximo para entrega do tema** - (27/10)
-- **Entrega da monografia** - (10/11)
-- **Ciclo de palestras dos alunos** - (10/11 a 24/11)
+- Inversão gravimetria e magnética 
+    - [X] Corpo em queda livre (cinemática) `free_fall_body.ipynb`
+    - [X] Direção de magnetização de uma esfera `magnetization_direction_sphere.ipynb`
+    - [X] Estimativa do relevo do embasamento `basement_estimation_gravity.ipynb`
+    - [x] Camada equivalente `processing_eqlayer.ipynb`
+
+- Processamento no domínio da frequência
+    - [X] Continuação para cima, Redução ao polo e Amplitude do gradiente total `fourier_processing_mag.ipynb`
 
 ## Referências bibliográficas
 
 * MacMillan, W. D. 1930. *The Theory of the Potential*. Dover Publications, Inc.
+
 * Kellogg, O. D. 1967. *Foundations of Potential Theory*. Springer-Verlag.
+
 * Blakely, R. J., 1996, *Potential theory in gravity and magnetic applications*. Cambridge
 University Press.
+
 * Hofmann-Wellenhof, B. e H. Moritz, 2005, *Physical Geodesy*. Springer.
+
 * Langel, R. A. e W. J. Hinze, 1998, *The magnetic field of the Earth's lithosphere: the
 satellite perspective*. Cambridge University Press.
+
 * Periódicos da área
 
 ## Material
