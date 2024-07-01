@@ -1,17 +1,12 @@
 '''
 This code presents an approach for implementing the gravitational field
 produced by a polygonal prism by using the analytical formulas of
-Plouff (1976). It also makes use of the modified arctangent function proposed
-by Fukushima (2020, eq. 72).
+Plouff (1976).
 
 References
 * Plouff, D. , 1976, Gravity and magnetic fields of polygonal prisms and
     applications to magnetic terrain corrections, Geophysics,
     41(4), 727-741. https://doi.org/10.1190/1.1440645
-
-* Fukushima, T. (2020). Speed and accuracy improvements in standard algorithm
-    for prismatic gravitational field. Geophysical Journal International,
-    222(3), 1898–1908. http://doi.org/10.1093/gji/ggaa240
 
 '''
 
@@ -21,27 +16,6 @@ from numba import njit
 #: The gravitational constant in m^3 kg^{-1} s^{-1}
 GRAVITATIONAL_CONST = 0.00000000006673
 
-@njit
-def safe_atan2(y, x):
-    """
-    Principal value of the arctangent expressed as a two variable function
-
-    This modification has to be made to the arctangent function so the
-    gravitational field of the prism satisfies the Poisson's equation.
-    Therefore, it guarantees that the fields satisfies the symmetry properties
-    of the prism. This modified function has been defined according to
-    Fukushima (2020, eq. 72).
-    """
-    if x != 0:
-        result = np.arctan(y / x)
-    else:
-        if y > 0:
-            result = np.pi / 2
-        elif y < 0:
-            result = -np.pi / 2
-        else:
-            result = 0
-    return result
 
 @njit
 def safe_log(x):
@@ -177,9 +151,9 @@ def kernel_gz(Y1,Y2,X1,X2,Z1,Z2):
     C1 = Q1*A1
     C2 = Q2*A2
     
-    T1 = (Z2 - Z1)*(safe_atan2(Q2,p) - safe_atan2(Q1,p))
-    T2 = Z2*(safe_atan2(Z2*Q1, R21*p) - safe_atan2(Z2*Q2,R22*p))
-    T3 = Z1*(safe_atan2(Z1*Q2, R12*p) - safe_atan2(Z1*Q1,R11*p))
+    T1 = (Z2 - Z1)*(np.arctan2(Q2,p) - np.arctan2(Q1,p))
+    T2 = Z2*(np.arctan2(Z2*Q1, R21*p) - np.arctan2(Z2*Q2,R22*p))
+    T3 = Z1*(np.arctan2(Z1*Q2, R12*p) - np.arctan2(Z1*Q1,R11*p))
     
     T4 = (0.5*p*A1/B1)*safe_log(
         ((E11 - C1)*(E21 + C1))/((E11 + C1)*(E21 - C1)))
